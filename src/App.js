@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import stormbw from './stormbw.jpeg';
 import './App.css';
-import {View} from 'react-native';
 import { Column, Row } from 'simple-flexbox';
 
 
