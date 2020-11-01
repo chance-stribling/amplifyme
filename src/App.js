@@ -6,18 +6,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" alt="Storm" />
         <h1>
         Meet Storm
         </h1>
-        
+        <img src="https://amplifymeimagesmaybe142008-dev.s3.us-east-2.amazonaws.com/stormbw.jpeg" alt="Storm" />
         <p>
         I am the mother of two sons, Michael and William, both proud EBR students
         </p>
         
-        <h6>
+        <h3>
         Go Belaire Bengals and Sherwood Falcons!
-        </h6>
+        </h3>
         
         <p>
         I have been honored to serve and teach the children of East Baton Rouge Parish Schools for the last 14 years. 
