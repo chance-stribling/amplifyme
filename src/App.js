@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import stormbw from './stormbw.jpeg';
 import './App.css';
 
