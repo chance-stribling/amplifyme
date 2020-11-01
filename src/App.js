@@ -6,11 +6,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+        Meet Storm
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          How quickly can I post changes?
+        I am the mother of two sons, Michael and William, both proud EBR students (Go Belaire Bengals and Sherwood Falcons!) 
+        I have been honored to serve and teach the children of East Baton Rouge Parish Schools for the last 14 years. 
+        During that time I have been an active parent, teacher, and union member whether it 
+        be as a special needs advocate, fighting for my students, 
+        fighting for the safety of both students and teachers, or participating at board meetings.
         </p>
         <a
           className="App-link"
