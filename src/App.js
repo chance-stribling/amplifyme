@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          Test change.
+          How quickly can I post changes?
         </p>
         <a
           className="App-link"
