@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import stormbw from './stormbw.jpeg';
 import './App.css';
 
@@ -5,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={stormbw} alt="Storm" />
+        <img src={stormbw} className="App-logo" alt="Storm" />
         <h1>
         Meet Storm
         </h1>
@@ -18,11 +19,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://secure.anedot.com/storm-matthews/campaign-slug"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Donate
         </a>
       </header>
     </div>
