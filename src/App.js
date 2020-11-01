@@ -1,16 +1,12 @@
 import logo from './logo.svg';
 import stormbw from './stormbw.jpeg';
 import './App.css';
-import Amplify, { Storage } from 'aws-amplify';
-import awsconfig from './aws-exports';
-Amplify.configure(awsconfig);
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={stormbw} alt="Storm" />
-        
         <h1>
         Meet Storm
         </h1>
