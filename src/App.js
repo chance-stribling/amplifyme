@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'https://amplifymeimagesmaybe142008-dev.s3.us-east-2.amazonaws.com/stormbw.jpeg'} alt="Storm" />
+        <img src={stormbw} alt="Storm" />
         
         <h1>
         Meet Storm
