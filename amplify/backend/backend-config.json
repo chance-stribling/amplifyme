@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "amplifyme73136212": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "authmaybe": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
