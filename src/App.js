@@ -1,22 +1,37 @@
 import logo from './logo.svg';
 import stormbw from './stormbw.jpeg';
 import './App.css';
+import {View} from 'react-native';
+import { Column, Row } from 'simple-flexbox';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-        Meet Storm
-        </h1>
-        <img src="https://amplifymeimagesmaybe142008-dev.s3.us-east-2.amazonaws.com/stormbw.jpeg" alt="Storm" />
-        <p>
-        I am the mother of two sons, Michael and William, both proud EBR students
-        </p>
+        <Column flewxGrow={1}>
+          <Row horizontal='center'>
+            <h1>
+              Meet Storm
+            </h1>
+          </Row>
+          <Row vertical='center'>
+            <Column flewxGrow={1}>
+              <img src="https://amplifymeimagesmaybe142008-dev.s3.us-east-2.amazonaws.com/stormbw.jpeg" alt="Storm" />
+            </Column>
+            <Column flewxGrow={1}>
+              <p>
+              I am the mother of two sons, Michael and William, both proud EBR students
+              </p>
+              
+              <h3>
+              Go Belaire Bengals and Sherwood Falcons!
+              </h3>
+            </Column>
+          </Row>
+        </Column>
         
-        <h3>
-        Go Belaire Bengals and Sherwood Falcons!
-        </h3>
+        
         
         <p>
         I have been honored to serve and teach the children of East Baton Rouge Parish Schools for the last 14 years. 
