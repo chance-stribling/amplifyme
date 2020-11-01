@@ -1,11 +1,12 @@
 import logo from './logo.svg';
+import stormbw from './stormbw.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={stormbw} className="App-logo" alt="Storm" />
         <h1>
         Meet Storm
         </h1>
